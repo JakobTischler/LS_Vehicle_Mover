@@ -1,0 +1,1 @@
+A visual aid for moving vehicles (from the vehicles.xml) in Landwirtschafts-Simulator.
