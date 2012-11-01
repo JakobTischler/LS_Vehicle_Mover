@@ -17,6 +17,9 @@
 <noscript>You need to have Javascript enabled to proceed.</noscript>
 
 <section id="main">
+	<div class="info save">Your data has been saved to local storage.</div>
+	<div class="info restore">Your previous data has been restored.</div>
+
 	<form>
 		<fieldset>
 			<label class="mainLabel" for="mapurl">PDA Map URL</label> 
@@ -80,8 +83,9 @@
 	<span id="footerContent"><span rel="version"></span> &copy; Jakob Tischler, 2012. All Rights Reserved.</span> <div aria-hidden="true" data-icon="&#x63;"></div> <a href="mailto:jakob.tischler@gmail.com?subject=LS Vehicle Mover" title="Send me a postcard">Contact me</a>
 </footer>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
+<script src="js/sisyphus.min.js"></script>
 <script src="js/lsvm_0.3b.js"></script>
 
 </body>

@@ -1,5 +1,5 @@
 /*** TRANSITIONS ***/
-a, button, button:before, div:not(.pos), fieldset, figure, img, input, label, li, span, textarea {
+a, button, button:before, div:not(.pos, .info), fieldset, figure, img, input, label, li, span, textarea {
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
@@ -112,6 +112,15 @@ footer span[rel="version"] {
 	float:left;
 }
 
+.info { 
+	display:none; 
+	position:fixed;
+	top:1em;
+	left:50%;
+	border:1px solid hsl(60, 100%, 47%);
+	border-radius:5px;
+	padding:0.5em 1em;
+}
 
 
 /*** CONTENT ***/
